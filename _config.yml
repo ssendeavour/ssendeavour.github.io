@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
+# NEVER use tab in configuration file, use space
+name: ssendeavour's simple blog
 markdown: redcarpet
 pygments: true
+
+# curiously, only Shanghai and Chong are listed in http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+encoding: UTF-8
