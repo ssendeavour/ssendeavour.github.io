@@ -75,11 +75,11 @@ public class TestMain {
 the output:
 	
 {% highlight text %}
-	Point [width=10, height=10, foo=23, bar=barString]
-	Point [width=30, height=30, foo=23, bar=barString]
-	Point [width=30, height=20, foo=23, bar=barString]
-	112
-	Point Name
+Point [width=10, height=10, foo=23, bar=barString]
+Point [width=30, height=30, foo=23, bar=barString]
+Point [width=30, height=20, foo=23, bar=barString]
+112
+Point Name
 {% endhighlight text %}
 
 [javadoc]: http://docs.oracle.com/javase/tutorial/java/javaOO/initial.html
