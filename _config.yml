@@ -1,4 +1,4 @@
-# NEVER use tab in configuration file, use space
+# NEVER use TAB in configuration file, use space
 name: ssendeavour's simple blog
 markdown: redcarpet
 pygments: true
@@ -6,3 +6,8 @@ pygments: true
 # curiously, only Shanghai and Chong are listed in http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 encoding: UTF-8
+
+# date:   /:categories/:year/:month/:day/:title.html (default)
+# pretty: /:categories/:year/:month/:day/:title/ (prefer no extension for greater portablility)
+# none:   /:categories/:title.html
+permalink: pretty
