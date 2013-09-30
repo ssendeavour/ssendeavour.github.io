@@ -11,3 +11,19 @@ encoding: UTF-8
 # pretty: /:categories/:year/:month/:day/:title/ (prefer no extension for greater portablility)
 # none:   /:categories/:title.html
 permalink: pretty
+
+# enable pagination
+# how many items should be displayed per page:
+# pagination: 5
+
+# destination of the pagination pages:
+# paginate_path: "blog/page_:num"
+
+maruku:
+    use_tex: true
+    use_divs: true
+    png_engine: blahtex
+    png_dir: images/latex
+    png_url: /images/latex/
+
+
