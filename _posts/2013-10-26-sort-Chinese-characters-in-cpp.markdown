@@ -4,7 +4,9 @@ title:  "sort Chinese characters using c++ | C++按照拼音对中文排序"
 date:   Sat Oct 26 00:42:24 CST 2013
 categories: cpp
 ---
-方法来自《C++ cookbook》，书中以德语为例，我的工作是解决了在Ubuntu中locale名称不对的问题。locale名称的查找方法：
+方法来自《C++ cookbook》，书中以德语为例，我的工作是解决了在Ubuntu中locale名称不对的问题。调用sort函数前不用再改变全局的locale，这里没有处理locale名称找不到时抛出的`runtime_error`。
+
+locale名称的查找方法：
 
 - `man 7 locale`，我是从这里找到的。cookbook上用的是`locale("french")`, `locale("english-american")`, 作者用的编译器是`VC++7.1`。我试过`locale("chinese")`, `locale("chinese-china")`都不行。
 - [libstdc++ 文档](http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01285.html)
@@ -21,12 +23,13 @@ C++标准只规定了一个locale：`C`。其他locale可能不是在所有平�
 
 using namespace std;
 
-bool localeLessThan(const string &s1, const string &s2){
-	const collate<char>& col = 
-		use_facet<collate<char> >(locale());		// use the global locale
+static const locale zh_CN_locale = locale("zh_CN.utf8");
+static const collate<char>& zh_CN_collate = use_facet<collate<char> >(zh_CN_locale);
+
+bool zh_CN_less_than(const string &s1, const string &s2){
 	const char *pb1 = s1.data();
 	const char *pb2 = s2.data();
-	return (col.compare(pb1, pb1+s1.size(), pb2, pb2+s2.size()) < 0);
+	return (zh_CN_collate.compare(pb1, pb1+s1.size(), pb2, pb2+s2.size()) < 0);
 }
 
 int main(void){
@@ -34,20 +37,7 @@ int main(void){
 	vector<string> v = {"啊", "阿", "第一", "第二", "第贰", "第叁", "第三",
 		"si", "shi", "wu", "w", "第六", "六" };
 
-	// set the golbal locale to Chinese, print old locale
-	try{
-		cout << "original locale: " << locale::global(locale("zh_CN.utf8")).name() << endl;
-	} catch (exception& e){
-		cerr << e.what() << endl;
-		return EXIT_FAILURE;
-	}
-
-	cout << "current locale: " << locale().name() << endl;
-	sort(v.begin(), v.end(), localeLessThan);
-
-	// restore C locale
-	locale::global(locale::classic());
-	cout << "restored locale: " << locale().name() << endl;
+	sort(v.begin(), v.end(), zh_CN_less_than);
 
 	for(vector<string>::const_iterator p = v.begin(); p != v.end(); ++p){
 		cout << *p << endl;
@@ -60,11 +50,8 @@ int main(void){
 编译运行结果：
 
 {% highlight text %}
-➜  i18n  g++ -Wall -std=c++0x sort_chinese_characters.cpp
+➜  i18n  g++ -std=c++0x sort_chinese_characters.no_global_locale.cpp 
 ➜  i18n  ./a.out 
-original locale: C
-current locale: zh_CN.utf8
-restored locale: C
 shi
 si
 w
@@ -78,5 +65,5 @@ wu
 第叁
 第一
 六
-➜  i18n
+➜  i18n 
 {% endhighlight %}
