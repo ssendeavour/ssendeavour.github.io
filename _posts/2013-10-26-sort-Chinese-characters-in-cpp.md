@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "sort Chinese characters using c++ | C++按照拼音对中文排序"
+title:  "sort Chinese characters with C++ | C++按照拼音对中文排序"
 date:   Sat Oct 26 00:42:24 CST 2013
 categories: cpp
 ---
