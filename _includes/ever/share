@@ -1,12 +1,15 @@
 <div class="bshare-custom">
-   <span id="bshare-shareto">分享到</span>
-
-   <a title="新浪微博" class="bshare-sinaminiblog"></a>
-   <a title="腾讯微博" class="bshare-qqmb"></a>
-   <a title="人人网" class="bshare-renren"></a>
-
-   <a title="更多平台" id="bshare-more-icon" class="bshare-more"></a>
-   <span class="BSHARE_COUNT bshare-share-count">--</span>
+    <div class="bsPromo bsPromo2"></div>
+	分享到 Share：
+    <a title="新浪微博|Sina Weibo" class="bshare-sinaminiblog"></a>
+	<a title="打印|Print" class="bshare-printer" href="javascript:void(0);"></a>
+	<a title="电子邮件|Email" class="bshare-email" href="javascript:void(0);"></a>
+	<a title="Evernote" class="bshare-evernote" href="javascript:void(0);"></a>
+	<a title="Twitter" class="bshare-twitter" href="javascript:void(0);"></a>
+	<a title="Google翻译|Translate" class="bshare-gtranslate"></a>
+	<a title="Google+" class="bshare-gplus" href="javascript:void(0);"></a>
+	<a title="更多平台|More" class="bshare-more bshare-more-icon more-style-addthis"></a>
+	<span class="BSHARE_COUNT bshare-share-count" style="float: none;">0</span>
 </div>
-<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=5a2a17c9-1a8e-4f45-a3f7-3c7c5600efda&style=-1"></script>
-<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC2.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=8ea7be55-edea-4668-a631-6e7aed75efbc&amp;pophcol=3&amp;lang=zh"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
