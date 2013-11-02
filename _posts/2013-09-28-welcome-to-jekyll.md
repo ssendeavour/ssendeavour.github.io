@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-tags: [Hello, Random]
-categories: cpp
+tags: [Random]
+categories: 
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: post
 title: Java static initialization blocks and Initializer blocks for instance variables
 date: Sat Sep 28 02:47:33 CST 2013
 categories: Java
+tag: [Java, initialization]
 ---
 
 This tutorial is acquired from [javadoc].

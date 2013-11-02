@@ -3,6 +3,7 @@ layout: post
 title:  "Java Nested Classes(static and non-static), local class, and anonymous class Reference"
 date:   2013-09-28 02:12:24
 categories: Java
+tag: [Java, OOP, class, nested class]
 ---
 Java doc has a very good documents about this. I think Java docs is the best place to learn java, way better than some textbooks. So I only place a link to there to let you know this good resource.
 
