@@ -1,0 +1,33 @@
+jekyll_bootstrap_short_ref.txt  For Vim version 7.3  Last change: 2013 Nov 2
+http://jekyllrb.com/docs/configuration/
+http://jekyllbootstrap.com/usage/jekyll-quick-start.html
+https://help.github.com/articles/using-jekyll-with-pages
+http://jekyllrb.com/docs/templates/
+http://pygments.org/docs/lexers
+http://jekyllrb.com/docs/templates/		# some handy variable and syntax format
+
+# start server in localhost and auto reload on changes~
+# http://127.0.0.1:4000
+
+jekyll serve -w --trace
+
+
+# create new post~
+
+rake post title="hello world"
+
+Theming~
+# for theme see http://jekyllbootstrap.com/usage/jekyll-theming.html#toc_2
+# manually intall theme~
+# manually install theme, put theme file in _theme_packages, then run
+rake theme:install name="THEME-NAME"
+
+# switch theme~
+rake theme:switch name="the-program"
+
+
+
+
+
+
+  vim:expandtab ai ft=help 
