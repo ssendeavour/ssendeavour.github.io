@@ -1,0 +1,43 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://ssendeavour.github.io/</loc>
+		<lastmod>{{ site.time }}</lastmod>
+		<priority>1.0</priority>
+	</url>
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.baseurl }}{{ post.url }}</loc>
+    {% if post.lastmod == null %}
+    <lastmod>{{ post.date }}</lastmod>
+	post.date
+    {% else %}
+    <lastmod>{{ post.lastmod }}</lastmod>
+	post.lastmod
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  {% endfor %}
+
+  {% for page in site.pages %}
+	  {% unless page.url == '/sitemap.xml' %}
+	  <url>
+		<loc>{{ site.baseurl }}{{ page.url }}</loc>
+		{% if page.lastmod == null %}
+		<lastmod>{{ page.date  }}</lastmod>
+		| date_to_xmlschema
+		page.date
+		{% else %}
+		<lastmod>{{ page.lastmod }}</lastmod>
+		page.lastmod
+		{% endif %}
+		<changefreq>weekly</changefreq>
+		<priority>0.4</priority>
+	  </url>
+	  {% endunless %}
+  {% endfor %}
+</urlset>

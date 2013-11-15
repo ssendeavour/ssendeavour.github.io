@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RTFM: Read The Fucking Manual"
+date: Fri Nov 15 13:42:47 CST 2013
 tagline: "Google Is Your Friend, 善用Google, 文档"
 description: "有些问题阅读文档或者手册或者Google一下就可以找到答案"
 tags: [Glossary, RTFM, 知乎]

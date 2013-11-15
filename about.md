@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About"
+date: Fri Nov 15 14:02:24 CST 2013
 tagline: ""
 description: ""
 group: "navigation"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "C++ typecasting: dynamic_cast, reinterprete_cast, static_cast, const_cast, typeid"
+date: Fri Nov 15 13:43:37 CST 2013
 tagline: "C++"
 description: ""
 tags: [C++, typecast, dynamic_cast, reinterprete_cast, static_cast, const_cast, typeid]

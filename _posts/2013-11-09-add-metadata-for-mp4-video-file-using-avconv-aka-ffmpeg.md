@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Add metadata(tag) for mp4 video file using avconv(aka. ffmpeg)为mp4文件添加标签"
+date: Fri Nov 15 13:43:17 CST 2013
 tagline: "software, metadata, ffmpeg, avconv, video, tag, mp4"
 description: "Add metadata(tag) for mp4 video file using avconv(aka. ffmpeg)为mp4文件添加标签"
 tags: [software, metadata, ffmpeg, avconv, video, tag, mp4, python]
