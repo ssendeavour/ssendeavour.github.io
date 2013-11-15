@@ -2,21 +2,20 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+{% include JB/setup %}
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://ssendeavour.github.io/</loc>
+		<loc>{{site.production_url}}</loc>
 		<lastmod>{{ site.time }}</lastmod>
 		<priority>1.0</priority>
 	</url>
   {% for post in site.posts %}
   <url>
-    <loc>{{ site.baseurl }}{{ post.url }}</loc>
+	  <loc>{{site.production_url}}{{BASE_PATH}}{{ post.url }}</loc>
     {% if post.lastmod == null %}
-    <lastmod>{{ post.date }}</lastmod>
-	post.date
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     {% else %}
-    <lastmod>{{ post.lastmod }}</lastmod>
-	post.lastmod
+    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -26,14 +25,11 @@ layout: nil
   {% for page in site.pages %}
 	  {% unless page.url == '/sitemap.xml' %}
 	  <url>
-		<loc>{{ site.baseurl }}{{ page.url }}</loc>
+		<loc>{{site.production_url}}{{ BASE_PATH }}{{ page.url }}</loc>
 		{% if page.lastmod == null %}
-		<lastmod>{{ page.date  }}</lastmod>
-		| date_to_xmlschema
-		page.date
+		<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 		{% else %}
-		<lastmod>{{ page.lastmod }}</lastmod>
-		page.lastmod
+		<lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
 		{% endif %}
 		<changefreq>weekly</changefreq>
 		<priority>0.4</priority>
