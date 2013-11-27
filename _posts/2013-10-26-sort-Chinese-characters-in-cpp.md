@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "sort Chinese characters with C++ | C++按照拼音对中文排序"
+title:  "sort Chinese characters with C++"
 date:   Sat Oct 26 00:42:24 CST 2013
 categories: C++
 tag: [C++, Chinese, CJK, pinyin, sort, locale, collate]
 ---
+C++按照拼音对中文排序
+---
+
+---
+
 方法来自《C++ cookbook》，书中以德语为例，思想是设置程序使用的locale为相应语言，按照语言的locale进行排序。
 
 我的工作是解决了在Ubuntu中locale名称不对的问题。还有调用sort函数前不用再改变全局的locale，这里没有处理locale名称找不到时抛出的`runtime_error`。

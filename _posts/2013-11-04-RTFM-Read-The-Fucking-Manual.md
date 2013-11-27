@@ -7,6 +7,10 @@ description: "有些问题阅读文档或者手册或者Google一下就可以找
 tags: [Glossary, RTFM, 知乎]
 ---
 {% include JB/setup %}
+RTFM 去读手册（帮助文档）
+---
+
+---
 
 ### [RTFM](http://en.wikipedia.org/wiki/RTFM)
 

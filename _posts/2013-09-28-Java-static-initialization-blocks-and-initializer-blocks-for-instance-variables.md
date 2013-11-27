@@ -6,6 +6,11 @@ categories: Java
 tag: [Java, initialization]
 ---
 
+Java静态初始化块
+---
+
+---
+
 This tutorial is acquired from [javadoc].
 
 ## Static Initialization Blocks

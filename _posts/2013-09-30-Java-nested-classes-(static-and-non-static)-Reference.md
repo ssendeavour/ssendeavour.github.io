@@ -5,6 +5,11 @@ date:   2013-09-28 02:12:24
 categories: Java
 tag: [Java, OOP, class, nested class]
 ---
+Java嵌套类（静态和非静态）、本地类、匿名类
+---
+
+---
+
 Java doc has a very good documents about this. I think Java docs is the best place to learn java, way better than some textbooks. So I only place a link to there to let you know this good resource.
 
 [http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html](http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
