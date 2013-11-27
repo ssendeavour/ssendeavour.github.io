@@ -2,10 +2,14 @@
 layout: post
 title:  "use find and wc to do line of code statistics"
 date: Mon Nov 18 11:33:22 CST 2013
-tags: [Shell, oneliner, find, LOC]
+tags: [Shell, oneliner, find, LOC, Linux]
 categories: Shell
 ---
 {% include JB/setup %}
+使用find和wc命令统计代码行数
+---
+
+---
 
 It's simple, suppose we want to count *.cpp and *.h, run this oneliner in the root directoy of your project:
 

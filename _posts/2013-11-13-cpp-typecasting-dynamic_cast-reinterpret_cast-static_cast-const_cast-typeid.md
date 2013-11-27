@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "C++ typecasting: dynamic_cast, reinterprete_cast, static_cast, const_cast, typeid"
-date: Fri Nov 15 13:43:37 CST 2013
+date: Fri Nov 13 13:43:37 CST 2013
 tagline: "C++"
 description: ""
 tags: [C++, typecast, dynamic_cast, reinterprete_cast, static_cast, const_cast, typeid]
 ---
 {% include JB/setup %}
+
+C++ 类型转换方法总结
+----
+
+---
 
 本文是cplusplus.com上文章的笔记，原文：
 <http://www.cplusplus.com/doc/tutorial/typecasting/>
