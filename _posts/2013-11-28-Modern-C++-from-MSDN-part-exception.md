@@ -92,3 +92,7 @@ exception-safe的设计原则：
  * `catch`块只能通过抛出异常进入，`goto`或者`switch`中的`case`标签则不能。
  * 发生异常时，异常发生现场和try之间的函数调用将不会返回，如果在这之间有用`new`在堆上分配的内存，异常发生现场与`catch`之间的释放内存的`delete`操作将不会执行。
 
+**更多资料**
+
+ - C++ Exception Handling: <http://msdn.microsoft.com/en-us/library/vstudio/4t3saedz(v=vs.120).aspx>
+
