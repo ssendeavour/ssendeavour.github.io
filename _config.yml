@@ -3,7 +3,7 @@
 #permalink: /:categories/:year/:month/:day/:title
 permalink: /:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: ["post_template.md", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: false
 markdown: kramdown
 paginate: 6
