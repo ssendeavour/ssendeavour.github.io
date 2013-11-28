@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java Nested Classes(static and non-static), local class, and anonymous class Reference"
-date:   2013-09-28 02:12:24
+date:   2013-09-30 02:12:24
 categories: Java
 tag: [Java, OOP, class, nested class]
 ---
