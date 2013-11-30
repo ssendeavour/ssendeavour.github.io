@@ -4,6 +4,7 @@ title:  "经验：GUI编程中不要在栈上分配GUI类对象"
 date: Fri Nov 15 20:00:38 CST 2013
 tags: [C++, GUI, Qt, Pointer]
 categories: C++ 
+code: 0
 ---
 {% include JB/setup %}
 

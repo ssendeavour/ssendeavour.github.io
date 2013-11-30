@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date: Fri Sep 28 13:41:54 CST 2013
 tags: [Random]
 categories: misc
+mathjax: 1
 ---
 {% include JB/setup %}
 

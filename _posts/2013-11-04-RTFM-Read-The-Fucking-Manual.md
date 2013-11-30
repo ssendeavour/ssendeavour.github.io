@@ -5,6 +5,7 @@ date: Fri Nov 4 13:42:47 CST 2013
 tagline: "Google Is Your Friend, 善用Google, 文档"
 description: "有些问题阅读文档或者手册或者Google一下就可以找到答案"
 tags: [Glossary, RTFM, 知乎]
+code: 0
 ---
 {% include JB/setup %}
 RTFM 去读手册（帮助文档）

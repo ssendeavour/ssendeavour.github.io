@@ -26,6 +26,20 @@ rake theme:install name="THEME-NAME"
 rake theme:switch name="the-program"
 
 
+# post parameter:~
+    - 'layout': layout template: post, ...
+    - 'title': 
+    - 'date': use ":r! date" in vim to generate a date string
+    - 'categories': C++, Shell, ...
+    - 'tags': [tag1, tag2]
+    - 'description': 
+    - 'code': code highlight related javascript, css files. these files will 
+      load unless you set 'code' to 0. can be omitted if you **want** to use
+      it.
+    - 'mathjax': set 'mathjax' to 1 to enable, can be omitted if you donn't
+      need mathjax.
+
+
 
 
 

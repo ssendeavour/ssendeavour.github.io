@@ -4,6 +4,7 @@ title:  "Modern C++ (MSDN): Exception"
 date: Thu Nov 28 13:34:37 CST 2013
 tags: [C++, Modern C++, MSDN]
 categories: C++
+code: 0
 ---
 {% include JB/setup %}
 
