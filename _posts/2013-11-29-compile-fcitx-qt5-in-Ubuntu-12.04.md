@@ -3,7 +3,7 @@ layout: post
 title: "在Ubuntu12.04里编译fcitx-qt5"
 date: Fri Nov 29 03:49:29 CST 2013
 tags: [Ubuntu, qt5, fcitx, 五笔]
-categories: Software 
+categories: Software, Software & Tool
 ---
 {% include JB/setup %}
 
