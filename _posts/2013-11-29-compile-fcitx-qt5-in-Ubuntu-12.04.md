@@ -24,6 +24,8 @@ fcitx无法在Qt5的窗口里输入中文，需要安装fcitx-qt5包，Ubuntu源
 	set(Qt5DBus_DIR /opt/Qt5.1.1/5.1.1/gcc_64/lib/cmake/Qt5DBus/)
 	~~~
 
+	Qt5的路径修改为你电脑上的路径。
+
 3.	正常编译
 
 	~~~shell
