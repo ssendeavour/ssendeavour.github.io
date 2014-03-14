@@ -10,13 +10,13 @@ group: "navigation"
 
 ### 关于我
 
-伪程序员，喜欢小技巧，喜欢vim，喜欢shell，喜欢Linux。至今没有确定要做什么，没有像样的程序作品。
+985院校末几位软件工程本科生，喜欢vim，喜欢Linux，喜欢LaTeX。主攻C++，也会一点python, Android, Java。
 
 ---
 
 ### 关于网站
 
-网站的代码是从 [iEverX](http://blog.evercoding.net/) 那里拿过来的，我不懂前端，更不懂liquid, ruby。
+网站的代码、主题是从 [iEverX](http://blog.evercoding.net/) 那里拿过来的，我不懂前端，更不懂liquid, ruby。
 
 * 他的网站源码：<https://github.com/iEverX/ieverx.github.com>
 * [Jekyll Bootstrap][]

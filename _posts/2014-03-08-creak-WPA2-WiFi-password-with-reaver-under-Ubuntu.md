@@ -76,3 +76,7 @@ reaver -i mon0 -b aa:bb:cc:dd:ee:ff -vv | tee crack.log
 - [如何使用Reaver破解Wi-Fi网络的WPA密码](http://blog.csdn.net/tinyeyeser/article/details/17127805)（讲的是使用BT5刻光盘进行破解，如果不使用Linux, 可以看看这个）
 - [How to Crack a Wi-Fi Network’s WPA Password with Reaver](http://answertohow.blogspot.in/2012/12/how-to-crack-wi-fi-networks-wpa.html)（这个链接讲到了如何加速破解，以及伪造MAC地址）
 
+======
+Update:
+
+沮丧，尝试破解自己的Wifi和另一个Wifi，均未成功。
