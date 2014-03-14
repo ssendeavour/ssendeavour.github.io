@@ -132,3 +132,9 @@ code {
     border: none;
     padding: 0 3px;
 }
+
+body, li, ul{
+	line-height: 26px;
+	font-size:100%;
+}
+

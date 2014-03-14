@@ -12,7 +12,7 @@ mathjax: 0
 在Ubuntu 12.04下安装jekyll github page 写博客
 ---
 
-注：要在github page写博客，首先要建好以你的github用户名+"github.io"为名的特殊repository。本文假设你已经建好了这个repositorｙ。
+注：要在github page写博客，首先要建好以你的github用户名+"github.io"为名的特殊repository。本文假设你已经建好了这个repository。
 
 ---
 jekyll 是用ruby写的，因此需要先安装ruby和相关的软件。
@@ -90,8 +90,8 @@ bundle update
 
 需要先加载 mathjax.js，官方教程<http://docs.mathjax.org/en/latest/start.html>
 
-displayed mathematicas: `$$ .. $$` or `\\[ .. \\]`
-inline mathematics: `\\( .. \\)`, **note**: `$ .. $` is not enabled by default.
+- displayed mathematicas: `$$ .. $$` or `\\[ .. \\]`
+- inline mathematics: `\\( .. \\)`, **note**: `$ .. $` is not enabled by default.
 
 -------
 

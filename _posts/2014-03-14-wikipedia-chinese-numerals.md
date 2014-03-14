@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wikipedia: Chinese numericals 中国数字"
+title: "Wikipedia: Chinese numerals 中国数字"
 date: Fri Mar 14 14:09:48 CST 2014
 tags: [wiki]
 categories: misc
