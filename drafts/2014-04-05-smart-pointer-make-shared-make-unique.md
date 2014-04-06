@@ -25,4 +25,8 @@ auto stmt = make_shared<sqlite3_stmt>(nullptr, [](sqlite3_stmt * stmt){
 	stmt = nullptr;
 });
 
+const char * sql_template = "delete from BOOK where book_id = '%s';";
+size_t sql_length = std::strlen(sql_template) + sizeof(T);
+std::unique_ptr<char[]> sql(new char[sql_length]);
+std::snprintf(sql.get(), sql_length, sql_template, book_id.c_str());
 ~~~
