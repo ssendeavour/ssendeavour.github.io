@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "smart pointer in C++11 (notes)"
-date: Sat Apr  5 15:12:55 CST 2014
+date: Mon Apr  7 00:35:15 CST 2014
 tags: [C++, C++11]
 categories: C++
 code: 1
@@ -14,7 +14,7 @@ smart pointer in C++11 (notes)
 
 ---
 
-~~~C++
+~~~cpp
 auto c = make_shared<circle>(12);
 auto ints = make_unique<int[]>(new int[10]);
 
