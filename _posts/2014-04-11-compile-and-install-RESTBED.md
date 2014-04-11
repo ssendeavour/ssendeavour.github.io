@@ -19,6 +19,7 @@ restbed 是一个支持RESTful的C++库。编译它需要使用`cmake` >= 2.8.10
 我想把restbed安装到系统的`/usr/`目录里，这样编写的程序可以比较方便的使用它。所以在编译之前需要修改build/CMakeList.txt
 
 修改 `build/CMakeLists.txt` 文件
+
 1. 第21行改为 `set( CMAKE_INSTALL_PREFIX "/usr" )`
 2. 第22行改为 `set( LIBRARY_OUTPUT_PATH    "${CMAKE_INSTALL_PREFIX}/lib" )`
 3. 第60行改为 `file( MAKE_DIRECTORY "${CMAKE_INSTALL_PREFIX}/lib" )`
