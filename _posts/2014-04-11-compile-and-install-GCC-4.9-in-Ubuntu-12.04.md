@@ -10,7 +10,6 @@ mathjax: 0
 {% include JB/setup %}
 
 在Ubuntu 12.04下编译安装GCC/G++4.9
-
 ---
 
 做毕设使用的一个开源项目restbed使用`g++4.9`才能编译，4.9还没正式发布，Ubuntu 12.04没有预编译好的，无奈只好自己编译。

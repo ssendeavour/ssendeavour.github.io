@@ -10,7 +10,6 @@ mathjax: 0
 {% include JB/setup %}
 
 一个`stringstream`的对象`ss`，当它的状态是`eof()`，就会一直在这个状态不能自拔，即使使用`ss.str(new_string)`也没用。所以在再次使用`<<`, `>>`之前要重置它的状态。
----
 
 ---
 
