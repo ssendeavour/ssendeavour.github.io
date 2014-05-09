@@ -37,7 +37,7 @@ while(ss >> word){
 }
 ~~~
 
-如果正确的使用 `stringstream`, `iostream` 等输入输出流，请参考`C++ FAQ`，它提供了不少示例代码。
+如何正确的使用 `stringstream`, `iostream` 等输入输出流，请参考`C++ FAQ`，它提供了不少示例代码。
 
 <http://isocpp.org/wiki/faq/input-output>
 
