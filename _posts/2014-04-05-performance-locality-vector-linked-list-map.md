@@ -11,7 +11,7 @@ mathjax: 0
 
 ---
 
-来自微博Build 2014演讲视频 **Modern C++: What You Need to Know** by Herb Sutter
+来自微软Build 2014演讲视频 **Modern C++: What You Need to Know** by Herb Sutter
 
 地址：<http://channel9.msdn.com/Events/Build/2014/2-661?format=html5>
 
