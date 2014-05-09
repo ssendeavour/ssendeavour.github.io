@@ -3,7 +3,7 @@
     var wumiiTitle = "{{ page.title }}";
     var wumiiTags = "{% if tags_list.first[0] == null %}{% for tag in tags_list %}{{ tag }}{% if forloop.last == false %},{% endif %}{% endfor %}{% else %}{% for tag in tags_list %}{{ tag[0] }}{% if forloop.last == false %},{% endif %}{% endfor %}{% endif %}";
     var wumiiCategories = [];
-    var wumiiSitePrefix = "http://ssendeavour.github.io/";
+    var wumiiSitePrefix = "http://zisxks.com/";
     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
 </script>
 <script type="text/javascript" src="http://widget.wumii.cn/ext/relatedItemsWidget"></script>
